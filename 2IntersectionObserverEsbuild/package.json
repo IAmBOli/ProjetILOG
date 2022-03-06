@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "esbuild app.js --bundle --outfile=bundle.js"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.5.1",
+    "esbuild": "^0.14.24"
+  },
+  "devDependencies": {
+    "esbuild-dynamic-import-plugin": "^0.0.12"
+  }
+}
